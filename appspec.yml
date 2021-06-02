@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: dist/my-angular-project
     destination: /var/www/test-AngularSite         #path on EC2
 permissions:
   - object: /var/www/test-AngularSite
